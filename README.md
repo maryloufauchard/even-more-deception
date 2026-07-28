@@ -1,2 +1,4 @@
 # even-more-deception
-Objective Misalignment in Mixed-Motive LLM Multi-Agent Systems
+## Objective Misalignment in Mixed-Motive LLM Multi-Agent Systems
+
+The code is available and contains all the prompts for all players for every step of the game. Compared to the Werewolf Arena (Bailis, Friedhoff, and Chen 2024), players’ names are 4 alpha-numerical characters to prevent racial and gender bias. The code is also adapted to be compatible with an open-source model, which is more accessible. The player’s objective depends on whether they are benevolent, individualist or malevolent. In order to prevent the individualist or malevolent player from being killed the first night, before they have a chance to participate and interact with the other players, the Werewolves will have to pick a new victim if they decide on this player, only for the first night. Along with the code to execute the games in the folder "werewolf", the code to analyze the reasoning and metrics for our analysis is also available under the folder "embedding". Lastly, we release the complete set of Werewolf games generated under each experimental setting.
